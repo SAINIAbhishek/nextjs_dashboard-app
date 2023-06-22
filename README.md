@@ -1,11 +1,15 @@
 # React Admin Dashboard
 
-It is a learning project. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Project overview
+
+The purpose of this project is to demonstrate a fully functional Fronted Admin Dashboard.
 
 ![Application demo](Screenshot%202023-04-04%20170216.png)
 
-### Frontend stacks:
-- React.js
+## External libraries or Frontend stacks:
+
 - TypeScript
 - React FullCalendar (https://fullcalendar.io/)
 - MUI (offers a comprehensive suite of UI tools to help you ship new features faster)
@@ -17,8 +21,6 @@ It is a learning project.
 - React dom
 - Nivo (nivo provides a rich set of dataviz components, built on top of D3 and React.)
 - React Charts (the most popular charting library.)
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
