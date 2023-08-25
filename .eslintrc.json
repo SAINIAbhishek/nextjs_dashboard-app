@@ -23,19 +23,14 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint",
-    "react-hooks",
-    "prettier"
-  ],
+  "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": "error",
-    "no-unused-vars": "warn"
+    "@typescript-eslint/no-explicit-any": "off"
   },
   "overrides": [
     // Only uses Testing Library lint rules in test files
