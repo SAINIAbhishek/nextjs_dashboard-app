@@ -1,12 +1,12 @@
-# React Admin Dashboard
+# Admin Dashboard Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Project overview
 
-The purpose of this project is to demonstrate a fully functional Fronted Admin Dashboard.
+The purpose of this project is to demonstrate a fully functional Frontend Admin Dashboard by using the best practices in next.js and react.
 
-![Application demo](Screenshot%202023-04-04%20170216.png)
+![Application demo](./public/screenshot.png)
 
 ## External libraries or Frontend stacks:
 
@@ -16,20 +16,18 @@ The purpose of this project is to demonstrate a fully functional Fronted Admin D
 - MUI DataGrid Table
 - Formik (building forms)
 - yup (a schema builder for runtime value parsing and validation)
-- React-router-dom
 - Emotion library (designed for writing css styles with JavaScript)
 - React dom
 - Nivo (nivo provides a rich set of dataviz components, built on top of D3 and React.)
 - React Charts (the most popular charting library.)
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+First, run the development server:
 
-### `npm start`
+```bash
+npm run dev
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
