@@ -1,4 +1,4 @@
-import { createContext, useState, useMemo } from 'react';
+import { createContext, useMemo, useState } from 'react';
 import { createTheme } from '@mui/material';
 
 // color design tokens export
@@ -195,6 +195,7 @@ export const themeSettings = (mode: string) => {
 
 // context for color mode
 export const ColorModeContext = createContext({
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   toggleColorMode: () => {},
 });
 
@@ -209,6 +210,7 @@ export const useMode = (): any => {
     []
   );
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
   return [theme, colorMode];
