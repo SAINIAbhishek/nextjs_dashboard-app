@@ -1,9 +1,8 @@
 **/*.js
-node_modules
-build
+/node_modules
+/build
 /src/react-app-env.d.ts
 /src/reportWebVitals.ts
-*.js
 .next
 **/*.mdx
 **/*.png
