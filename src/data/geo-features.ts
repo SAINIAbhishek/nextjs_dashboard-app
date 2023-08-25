@@ -1,4 +1,4 @@
-export const MOCK_GEO_FEATURES = {
+export const MOCK_GEO_FEATURES_DATA = {
   type: 'FeatureCollection',
   features: [
     {
