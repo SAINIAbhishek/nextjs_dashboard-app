@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import * as React from 'react';
+import ThemeContainer from '@/app/container';
 
 export const metadata = {
   title: 'Admin Dashboard Application',
@@ -14,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ThemeContainer>{children}</ThemeContainer>
+      </body>
     </html>
   );
 }

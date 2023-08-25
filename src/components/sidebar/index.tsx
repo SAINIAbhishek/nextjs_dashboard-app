@@ -15,7 +15,7 @@ import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from '@mui/icons-material/TimelineOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
-import { Item } from '@/components/sidebar/item';
+import Item from '@/components/sidebar/item';
 import Image from 'next/image';
 
 type Props = {
@@ -23,7 +23,7 @@ type Props = {
   setIsCollapsed: (value: boolean) => void;
 };
 
-export function Sidebar({ isCollapsed, setIsCollapsed }: Props) {
+export default function Sidebar({ isCollapsed, setIsCollapsed }: Props) {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 

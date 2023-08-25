@@ -10,7 +10,7 @@ import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import SearchIcon from '@mui/icons-material/Search';
 import { ColorModeContext, tokens } from '@/styles/theme';
 
-export function Topbar() {
+export default function Topbar() {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const colorMode = useContext(ColorModeContext);

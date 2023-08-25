@@ -12,7 +12,13 @@ type Props = {
   setSelected: (value: string) => void;
 };
 
-export function Item({ title, to, icon, selected, setSelected }: Props) {
+export default function Item({
+  title,
+  to,
+  icon,
+  selected,
+  setSelected,
+}: Props) {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
