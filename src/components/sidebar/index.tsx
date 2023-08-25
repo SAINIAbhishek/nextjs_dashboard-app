@@ -138,7 +138,7 @@ export default function Sidebar({ isCollapsed, setIsCollapsed }: Props) {
             </Typography>
             <Item
               title="Profile Form"
-              to="/form"
+              to="/profile-form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
