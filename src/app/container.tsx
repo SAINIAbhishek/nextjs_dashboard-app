@@ -13,7 +13,7 @@ export default function ThemeContainer({
   children: React.ReactNode;
 }) {
   const [theme, colorMode] = useMode();
-  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   return (
     <ColorModeContext.Provider value={colorMode}>
