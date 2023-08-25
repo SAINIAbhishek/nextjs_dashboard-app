@@ -59,14 +59,7 @@ export default function Sidebar({ isCollapsed, setIsCollapsed }: Props) {
               color: colors.grey[100],
             }}>
             {!isCollapsed && (
-              <Box
-                display="flex"
-                justifyContent="space-between"
-                alignItems="center"
-                ml="15px">
-                <Typography variant="h3" color={colors.grey[100]}>
-                  ADMIN
-                </Typography>
+              <Box display="flex" justifyContent="flex-end">
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
                 </IconButton>
